@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RMSettingsVC.swift
 //  RickAndMorty
 //
 //  Created by olivier geiger on 15/03/2024.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RMSettingsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        
+        title = "Settings"
     }
-
-
 }
-
